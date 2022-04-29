@@ -9,4 +9,34 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    color: #fff;
+    font-family: 'Lora', serif;
+    color: #e61919;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    font-size: 100px;
+    padding-top: 30px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 50px;
+    align-items: center;
+}
+.main p {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.main img {
+    width: 50%;
+    margin-top: 50px;
 }
