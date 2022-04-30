@@ -32,6 +32,7 @@ header h1 {
         0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
         0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9),
         -31px -30px 4px rgba(206, 89, 55, 0);
+    text-align: center;
 }
 section {
     flex: 1 0 auto;
@@ -68,14 +69,15 @@ section {
     margin: 5px 5px;
 }
 .botao {
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
-a {
+.botao a {
     --glow-color: #e61919;
     --glow-spread-color: #e61919;
     --enhanced-glow-color: #fa4747;
     --btn-color: #e61919;
-    padding: 1em 3em;
+    padding: 1em 2em;
     color: #e61919;
     font-size: 15px;
     font-weight: bold;
@@ -85,17 +87,20 @@ a {
     position: relative;
     transition: all 0.3s;
     text-decoration: none;
-    font-size: 20px
+    font-size: 20px;
 }
-a:hover {
+.botao a:hover {
     color: #fff;
     background-color: var(--glow-color);
     box-shadow: 0 0 1em 0.25em var(--glow-color),
         0 0 4em 2em var(--glow-spread-color),
         inset 0 0 0.75em 0.25em var(--glow-color);
 }
-a:active {
+.botao a:active {
     box-shadow: 0 0 0.6em 0.25em var(--glow-color),
         0 0 2.5em 2em var(--glow-spread-color),
         inset 0 0 0.5em 0.25em var(--glow-color);
+}
+footer {
+    margin-top: 15px;
 }
