@@ -1,4 +1,4 @@
-import {gameOver} from '../JS/game-over.js'
+import {gameOver} from "./game-over";
 function desligarMusica() {
     let choose;
     while(choose != 1 && choose != 2) {
@@ -7,6 +7,6 @@ function desligarMusica() {
         NÃO: 2`)
     } 
     if(choose == 2) {
-        gameOver
+        gameOver()
     }
 }
