@@ -1,0 +1,98 @@
+html,
+body {
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/assets/IMG/capa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: "Lora", serif;
+    color: #e61919;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 0 -1px 0 rgb(0, 0, 0), 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+        0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
+        0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
+        0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
+        0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9),
+        -31px -30px 4px rgba(206, 89, 55, 0);
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    font-size: 70px;
+    padding-top: 10px;
+}
+section {
+    flex: 1 0 auto;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 30px;
+    align-items: center;
+}
+.main p {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao button {
+    --glow-color: #e61919;
+    --glow-spread-color: #e61919;
+    --enhanced-glow-color: #fa4747;
+    --btn-color: #e61919;
+    width: 250px;
+    height: 50px;
+    color: #e61919;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f32e2e80;
+    border-radius: 1em;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.botao button:hover {
+    color: #fff;
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 0.75em 0.25em var(--glow-color);
+}
+.botao button:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 0.5em 0.25em var(--glow-color);
+}
+.foot {
+    flex-shrink: 0;
+    margin: 5px 5px;
+}
