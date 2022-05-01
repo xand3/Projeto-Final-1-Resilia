@@ -80,13 +80,56 @@ section {
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-left: 50px;
 }
 .character img {
     width: 250px;
-    height: 280px;
+    height: 260px;
     object-fit: cover;
-    margin-left: 30px;
+    border: 2px solid #2c2c2c;
+    border-radius: 20px;
 }
-.character p {
+.character a {
     font-size: 30px;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao button {
+    --glow-color: #e61919;
+    --glow-spread-color: #e61919;
+    --enhanced-glow-color: #fa4747;
+    --btn-color: #e61919;
+    width: 250px;
+    height: 50px;
+    color: #e61919;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #f32e2e80;
+    border-radius: 1em;
+    outline: none;
+    position: relative;
+    transition: all 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+}
+.botao button:hover {
+    color: #fff;
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0 0.75em 0.25em var(--glow-color);
+}
+.botao button:active {
+    box-shadow: 0 0 0.6em 0.25em var(--glow-color),
+        0 0 2.5em 2em var(--glow-spread-color),
+        inset 0 0 0.5em 0.25em var(--glow-color);
+}
+footer {
+    margin-top: 15px;
 }

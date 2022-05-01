@@ -68,35 +68,39 @@ section {
     flex-shrink: 0;
     margin: 5px 5px;
 }
-.botao {
+.btn {
     margin-bottom: 20px;
     margin-top: 25px;
+    width: 250px;
+    height: 50px;
 }
-.botao a {
+.botao button {
     --glow-color: #e61919;
     --glow-spread-color: #e61919;
     --enhanced-glow-color: #fa4747;
     --btn-color: #e61919;
-    padding: 1em 2em;
+    
     color: #e61919;
     font-size: 15px;
     font-weight: bold;
-    background-color: rgba(243, 46, 46, 0.5);
+    background-color: #f32e2e80;
     border-radius: 1em;
     outline: none;
     position: relative;
     transition: all 0.3s;
     text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
+    border: none;
 }
-.botao a:hover {
+.botao button:hover {
     color: #fff;
     background-color: var(--glow-color);
     box-shadow: 0 0 1em 0.25em var(--glow-color),
         0 0 4em 2em var(--glow-spread-color),
         inset 0 0 0.75em 0.25em var(--glow-color);
 }
-.botao a:active {
+.botao button:active {
     box-shadow: 0 0 0.6em 0.25em var(--glow-color),
         0 0 2.5em 2em var(--glow-spread-color),
         inset 0 0 0.5em 0.25em var(--glow-color);
