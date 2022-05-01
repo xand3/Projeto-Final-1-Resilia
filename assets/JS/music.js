@@ -1,3 +1,4 @@
+import {gameOver} from '../JS/game-over.js'
 function desligarMusica() {
     let choose;
     while(choose != 1 && choose != 2) {
@@ -6,6 +7,6 @@ function desligarMusica() {
         NÃO: 2`)
     } 
     if(choose == 2) {
-        window.location.href = ""
+        gameOver
     }
 }
