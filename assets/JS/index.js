@@ -1,6 +1,6 @@
 function comecarJogo() {
-    window.location.href = "../HTML/pick-character.html"
+    window.location.href = "../HTML/music.html"
 }
 
-start = document.getElementById("start")
+let start = document.getElementById("start")
 start.addEventListener("click", comecarJogo)
