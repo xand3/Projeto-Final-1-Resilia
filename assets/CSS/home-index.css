@@ -8,7 +8,7 @@ body {
     height: 100%;
 }
 body {
-    background-image: url(/assets/IMG/capa.jpg);
+    background-image: url(../IMG/capa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

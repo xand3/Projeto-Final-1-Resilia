@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 body {
-    background-image: url(/assets/IMG/capa.jpg);
+    background-image: url(../IMG/capa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -32,6 +32,7 @@ header {
 header h1 {
     font-size: 70px;
     padding-top: 10px;
+    text-align: center;
 }
 section {
     flex: 1 0 auto;
