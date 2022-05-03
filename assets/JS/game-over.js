@@ -1,5 +1,5 @@
 function gameOver() {
-    window.location.href = "../../HTML/game-over.html"
+    window.location.href = "../HTML/game-over.html"
 }
 let lose = document.getElementById("game-over")
 lose.addEventListener("click", gameOver)
