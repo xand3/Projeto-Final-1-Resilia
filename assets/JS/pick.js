@@ -1,11 +1,11 @@
 function leeEscolhido() {
-    window.location.href = "../../HTML/lee-level1.html"
+    window.location.href = "../HTML/lee-level1.html"
 }
 function eveEscolhido() {
-    window.location.href = "../../HTML/eve-level1.html"
+    window.location.href = "../HTML/eve-level1.html"
 }
 function regEscolhido() {
-    window.location.href = "../../HTML/reg-level1.html"
+    window.location.href = "../HTML/reg-level1.html"
 }
 
 let lee = document.getElementById("lee")
