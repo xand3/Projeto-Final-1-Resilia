@@ -46,6 +46,7 @@ section {
 }
 .main h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .main p {
     font-size: 18px;
@@ -57,6 +58,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 .botao button {
     --glow-color: #e61919;
