@@ -62,6 +62,9 @@ section {
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
+#happy {
+    font-size: 30px;
+}
 .botao button {
     --glow-color: #e61919;
     --glow-spread-color: #e61919;
