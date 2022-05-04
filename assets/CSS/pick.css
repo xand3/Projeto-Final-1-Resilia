@@ -133,3 +133,9 @@ section {
 footer {
     margin-top: 15px;
 }
+
+@media (max-width: 950px) {
+    .characters {
+        flex-direction: column;
+    }
+}
